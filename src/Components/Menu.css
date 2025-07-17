@@ -1,0 +1,92 @@
+.menu-section{
+    padding: 3rem 2rem;
+    background-color: #d1ddf0;
+    color: #060458;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.menu-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0e0d49;
+    border-bottom: 3px solid #110458;
+    display: inline-block;
+    padding-bottom: 0.6rem;
+}
+
+.menu-section{
+    margin-bottom: 3rem;
+}
+
+.menu-category {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    border-left: 4px solid #0d0b86;
+    padding-left: 0.8rem;
+}
+
+.menu-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #060458;
+    background-color: #faf6f0;
+    transition: background 0.3s;
+}
+
+.menu-item:hover{
+    background-color: #0e0d49;
+    color: #ffffff;
+}
+
+.item-name{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.item-price{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menu-filters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.filter-select,
+.search-input{
+    padding: 0.5rem, 1rem;
+    font-size: 1rem;
+    border: 1px solid #060458;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fef9f3;
+    color: #060458;
+    cursor: pointer;
+}
+
+.filter-select:focus,
+.search-input:focus{
+    border-color: #817fd4;
+}
+
+.no-results{
+    text-align: center;
+    color: #060458;
+    font-style: italic;
+}

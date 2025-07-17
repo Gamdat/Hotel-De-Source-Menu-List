@@ -1,0 +1,82 @@
+
+.about{
+    padding: 4rem 2rem;
+    background-color: #cac6f1;
+    text-align: center;
+}
+
+.about-title{
+    font-size: 2rem;
+    color: #060458;
+    margin-bottom: 2rem;
+}
+
+.about-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-card{
+    background-color: #f8f8f8;
+    padding: 2rem;
+    width: 390px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.about-card:hover{
+    transform: translateY(-10px);
+}
+
+.about-card h3{
+    margin-top: -5px;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    color: #060458;
+}
+
+.about-card p{
+    font-size: 1.1rem;
+      color: #060458;
+}
+
+.more{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+
+.offer-list,
+.focus-list{
+    color: #060458;
+    list-style-type: disc;
+}
+
+.offer-list li,
+.focus-list li{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.map-container{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(10, 16, 245, 0.1);
+    height: 190px;
+    width: 250px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.thank-you{
+    color: #060458;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
