@@ -39,3 +39,12 @@
     font-size: 0.9rem;
     color: #999999;
 }
+
+@media(max-width: 414px) 
+{
+.footer-links{
+    gap: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+}

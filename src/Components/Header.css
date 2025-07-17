@@ -112,3 +112,35 @@
    }
 }
 
+
+@media(max-width: 414px) 
+{
+   .logo-img{
+    width: 60px;
+    height: 60px;
+   }
+
+   .logo-text{
+    font-size: 1.2rem;
+   }
+
+   .taglinne{
+    margin-top: 13px;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    font-weight: 300;
+   }
+
+   .nav-logo{
+    margin-left: 550px;
+   }
+
+   .nav-links{
+    margin-left: 20px;
+    margin-top: -20px;
+    font-size: 0.9rem;
+    flex-direction: row;
+    gap: 1rem;
+   }
+}
+

@@ -12,6 +12,7 @@ function Footer() {
                        <a href="/rooms">Our Rooms</a>
                       <a href="/menu">Menu</a>
                        <a href="/contact">Contact</a>
+                       <a href='/gallery'>Gallery</a>
                 </div>
                 <p className="footer-copy">&copy;{new Date().getFullYear()} Zayn Events & Cakes. all rights reserved.</p>
             </div>
