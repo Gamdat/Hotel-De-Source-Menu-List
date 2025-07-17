@@ -24,7 +24,7 @@
     background-color: #f8f8f8;
     padding: 2rem;
     width: 390px;
-    height: 390px;
+    height: 430px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     transition: transform 0.3s ease;
@@ -79,12 +79,4 @@
     color: #060458;
     margin-top: 40px;
     font-size: 1.2rem;
-}
-
-
-@media(max-width: 450px) {
-    .about-card{
-  width: 390px;
-    height: 430px;
-}
 }
