@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <div className='header'>
             <div className='container'>
-               <div className='nav-logo'> <img src="/public/images/logo.jpeg" alt="Hotel Logo" className='logo-img'/>
+               <div className='nav-logo'> <img src="/images/logo.jpeg" alt="Hotel Logo" className='logo-img'/>
                 <span className='logo-text'>Hotel De Source (Oyinade)
                      <p className='taglinne'>....where class meets comfort</p>
                 </span>
