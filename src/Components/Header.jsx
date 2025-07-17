@@ -11,7 +11,6 @@ const Header = () => {
                      <p className='taglinne'>....where class meets comfort</p>
                 </span>
             </div>
-
             <nav className='nav-links'>
                 <Link to="/about">About Us</Link>
                 <Link to="/rooms"> Our Rooms</Link>

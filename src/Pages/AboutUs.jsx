@@ -11,10 +11,9 @@ const AboutUs = () => {
                  <div className='about-card'>
                 <h3>About Us</h3>
                <p className='more'>
-                    Hotel De Source (Oyinade) is a relaxing destination in Ile-Ife offering fine dining, refreshing
-                    drinks, an comfortable rooms for both long
-                    lodging and short rests. Whether you are here to unwind in our lounge
-                    or enjoy a peaceful stay, you are always welcome.
+                    Hotel De Source (Oyinade) is a serene and relaxing destination in Ile-Ife offering fine dining, refreshing
+                    drinks, and comfortable rooms for both short and long stays. Whether you are here to unwind in our lounge
+                    or enjoy a peaceful stay, you're always welcome.
                 </p>
                </div>
                <div className='about-card'>
@@ -22,26 +21,26 @@ const AboutUs = () => {
                 <ul className='offer-list'>
                     <li>A well-stocked lounge with drinks & foods.</li>
                     <li>Clean, affordable rooms for short and long stays.</li>
-                    <li>Cool hangout</li>
-                    <li>Best liquor</li>
-                    <li>Weekly & Weekend Grooves.</li>
-                    <li>24/7 Luxurious hospitality</li>
+                    <li>A vibrant and relaxing hangout space.</li>
+                    <li>Premium liquor</li>
+                    <li>Weekly & Weekend entertainment.</li>
+                    <li>24/7 top-notch hospitality with a luxurious touch.</li>
                     </ul>
                </div>
                <div className='about-card'>
                 <h3>Our Focus</h3>
-                <p>We serve guests looking for:</p>
+                <p>We serve guests seeking:</p>
                 <ul className=' focus-list'>
-                    <li> A refreshing spot to eat or relax.</li>
+                    <li> A refreshing spot to eat, drink or relax.</li>
                     <li>Comfortable lodging for a short rests or overnight stays.</li>
-                    <li>A neat, quiet space to unwind without breaking the bank.</li>
-                    <li> A cozy bar to enjoy great conversation with friends.</li>
-                    <li>A vibrant nightclub experience with a variety of party options.</li>
+                    <li>A neat, cozy space to unwind without breaking the bank.</li>
+                    <li> A friendly bar for great coversations.</li>
+                    <li>A lively nightclub experience to elevate your night.</li>
                 </ul>
                </div>
                <div className='about-card'>
                 <h3>Our Promise</h3>
-                <p className='more'> At Hotel De Source, we treat every guest with warmth, privacy, and personalized care. Whether you are staying a few hours
+                <p className='more'> At Hotel De Source, every guest is welcomed with warmth, privacy, and personalized care. Whether you are staying a few hours
             or a few nights, your comfort is our priority.
           </p>
                </div>

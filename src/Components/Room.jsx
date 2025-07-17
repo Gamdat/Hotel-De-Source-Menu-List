@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import roomData from '../data/roomData';
 import './Room.css'
 const Room = () => {
@@ -17,6 +18,8 @@ const Room = () => {
                     </div>
                 ))}
                 </div>
+                 <Link to="/booking">
+                 <button className="booking-btn">Book A Room</button></Link>
         </section>  
     );
 }

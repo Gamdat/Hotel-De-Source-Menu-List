@@ -1,4 +1,5 @@
 import React,  {useState} from 'react';
+import { Link } from 'react-router-dom';
 import menuData from '../data/menuData';
 import './Menu.css';
 
@@ -67,6 +68,8 @@ onChange={(e) => setSearchTerm(e.target.value)}
             </div>
         ))
     )}
+     <Link to="/booking">
+                 <button className="booking-btn">Place Your Order</button></Link>
     <button className='back-to-top' onClick={scrollToTop}>
                 Back to Top
             </button>

@@ -6,6 +6,8 @@ import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import Gallery from './Pages/Gallery';
 import Room from './Components/Room';
+import Services from './Components/Services';
+import BookingForm from './Components/BookingForm';
 import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About Us/>} />
        <Route path="/menu" element={<Menu/>} />
+       <Route path='/services' element={<Services/>} />
+       <Route path='/booking' element={<BookingForm/>} />
      <Route path="/contact" element={<Contact/>} />
      <Route path='/rooms' element={<Room/>}/>
      <Route path="/gallery" element={<Gallery/>}/>

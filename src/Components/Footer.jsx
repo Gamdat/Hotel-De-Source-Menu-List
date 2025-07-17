@@ -14,7 +14,7 @@ function Footer() {
                        <a href="/contact">Contact</a>
                        <a href='/gallery'>Gallery</a>
                 </div>
-                <p className="footer-copy">&copy;{new Date().getFullYear()} Hotel De Source (Oyinade). all rights reserved.</p>
+                <p className="footer-copy">&copy;{new Date().getFullYear()} Hotel De Source (Oyinade). All rights reserved.</p>
             </div>
         </footer>
     );

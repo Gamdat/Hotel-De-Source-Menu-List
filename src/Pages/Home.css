@@ -35,19 +35,20 @@
     margin-bottom: 3rem;
 }
 
-.btn{
-    padding: 0.8rem 2rem;
+.service-btn{
+    padding: 0.6rem 2rem;
     background-color: #ffffff;
-    color: #082f49;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+    color:#060458 ;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
     transition: background-color 0.3s ease;
-    margin-top: 500px;
+    margin-top: 1rem;
 }
 
-.btn:hover{
-    background: #dbeafe;
+.service-btn:hover{
+    background-color: #060458;
+    color: #ffffff;
 }
 
 

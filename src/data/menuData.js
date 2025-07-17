@@ -466,7 +466,7 @@ const menuData = [
     },
      {
         id: 80,
-        name: 'Whit Rice',
+        name: 'White Rice',
         price: '#3,500',
     },
         {
