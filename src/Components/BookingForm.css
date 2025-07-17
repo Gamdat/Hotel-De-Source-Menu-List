@@ -7,10 +7,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.container h2{
+.book{
+    margin-bottom: 2rem;
     text-align: center;
     margin-bottom: 1rem;
     color:#060458 ;
+    margin-bottom: 2rem;
 }
 
 .booking-form input,
@@ -54,4 +56,11 @@
     outline: none;
     border-color: #060458;
     box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+}
+
+.booking-form input::placeholder,
+.booking-form textarea::placeholder,
+.booking-form select::placeholder{
+    color: #060458;
+    font-style: italic;
 }

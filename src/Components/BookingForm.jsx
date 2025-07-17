@@ -4,7 +4,7 @@ import './BookingForm.css';
 const BookingForm = () => {
     return(
         <div className='booking-container'>
-            <h2>Book A Room Or Place Your Order</h2>
+            <h2 className='book'>Book A Room Or Place Your Order</h2>
             <form
             action="https://formsubmit.co/hoteldesourceoyinade@gmail.com"
             method='POST'
