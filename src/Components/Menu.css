@@ -90,3 +90,21 @@
     color: #060458;
     font-style: italic;
 }
+
+.back-to-top{
+    margin: 2rem auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #060458;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover{
+    background-color: #faf6f0;
+    color: #060458;
+}

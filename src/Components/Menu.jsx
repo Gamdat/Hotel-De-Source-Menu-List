@@ -7,6 +7,12 @@ function Menu ()  {
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [searchTerm, setSearchTerm] = useState("");
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
     const categories = ["All", ...menuData.map((section) => section.category)];
 
     const filteredData = menuData
@@ -28,10 +34,12 @@ function Menu ()  {
             <select 
             className='filter-select'
             value={selectedCategory}
-        onchange={(e) => setSelectedCategory(e.target.value)}
+        onChange={(e) => setSelectedCategory(e.target.value)}
     >
 {categories.map((cat) => (
-    <option key={cat}>{cat}</option>
+    <option key={cat} value={cat}>
+        {cat}
+    </option>
 ))}
 </select>
 <input
@@ -59,6 +67,9 @@ onChange={(e) => setSearchTerm(e.target.value)}
             </div>
         ))
     )}
+    <button className='back-to-top' onClick={scrollToTop}>
+                Back to Top
+            </button>
         </section> 
         
     );
