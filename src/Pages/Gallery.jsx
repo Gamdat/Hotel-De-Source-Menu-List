@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import './Gallery.css';
 
 
@@ -107,6 +108,8 @@ function Gallery  () {
                     </div>
                 </div>
             ))}
+             <Link to="/booking">
+                 <button className="booking-btn">Place Your Order or Book A Room</button></Link>
         </div>
     );
 }

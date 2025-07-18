@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Services.css';
 
 const Services = () => {
@@ -22,7 +23,8 @@ const Services = () => {
                 <p>We assist in booking for your spa session and relaxation needs.</p>
             </div>
             
-            
+             <Link to="/booking">
+                 <button className="booking-btn">Place Your Order or Book A Room</button></Link>
             
         </section>
     )

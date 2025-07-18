@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -64,6 +65,9 @@ const AboutUs = () => {
          </div>
 
           <p className='thank-you'><strong>Thank you for choosing Hotel De Source (Oyinade), we can't wait to host you.</strong></p>
+        <Link to="/booking">
+                 <button className="booking-btn">Book A Room or Place Your Order</button></Link>
+      
         </section>
     )
 }
