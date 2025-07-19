@@ -6,7 +6,9 @@ import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import Gallery from './Pages/Gallery';
 import Room from './Components/Room';
+import BackToHome from './Components/BackToHome';
 import Services from './Components/Services';
+import FAQ from './Pages/FAQ';
 import BookingForm from './Components/BookingForm';
 import './App.css'
 
@@ -23,7 +25,9 @@ function App() {
      <Route path="/contact" element={<Contact/>} />
      <Route path='/rooms' element={<Room/>}/>
      <Route path="/gallery" element={<Gallery/>}/>
+     <Route path='/faq' element={<FAQ/>} />
    </Routes>
+       <BackToHome/>
    <Footer/>
    </>
   )

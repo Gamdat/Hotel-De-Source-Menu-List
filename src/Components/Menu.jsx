@@ -65,9 +65,16 @@ onChange={(e) => setSearchTerm(e.target.value)}
                    </li>
                 ))}
                 </ul>
+                
             </div>
         ))
     )}
+    <p className='fantasy'>
+                     Is there a dish you've always fantasized about or dreamed of trying?
+                We'd love to know!
+                    <p> <a href="https://wa.me/2348068880848"
+                    className='whatsapp-button' target="_blank" rel="noreferrer">Click here to share a picture or tell us about it</a></p>
+                </p>
      <Link to="/booking">
                  <button className="booking-btn">Place Your Order</button></Link>
     <button className='back-to-top' onClick={scrollToTop}>

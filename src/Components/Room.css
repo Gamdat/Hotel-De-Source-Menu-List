@@ -30,7 +30,7 @@
 .room-type{
   display: inline-block;
   font-size: 1.2rem;
-  padding: 0.4rem 0.6rem;
+  padding: 0.6rem 0.6rem;
   border-radius: 4px;
   font-weight: 500px;
   color: #ffffff;
@@ -40,11 +40,6 @@
   transition: background-color 0.3s ease;
 }
 
-.short-rest{
-    background-color: #e3f2fd;
-    color: #060458;
-    margin-top: 10px;
-}
 
 .room-item{
     border-radius: 8px;
@@ -58,6 +53,7 @@
 .room-item h3{
     font-size: 1.8rem;
 }
+
 .price-tags{
     display: flex;
     flex-direction: column;

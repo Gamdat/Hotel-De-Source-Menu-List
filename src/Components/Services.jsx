@@ -19,8 +19,8 @@ const Services = () => {
                 <p>Book comfortable rooms for lodging or short rest. Clean and cozy, always ready.</p>
             </div>
             <div className="service-card">
-                <h3>Spa Booking</h3>
-                <p>We assist in booking for your spa session and relaxation needs.</p>
+                <h3>Massage Services</h3>
+                <p>We assist in booking for your massage session and relaxation needs.</p>
             </div>
             
              <Link to="/booking">

@@ -12,8 +12,7 @@ const Room = () => {
                     <div className="room-item" key={room.id}>
          <h3>{room.name}</h3>
          <div className="price-tags">
-         <span className='room-type room'>Room: {room.roomPrice}</span> 
-         <span className='room-type short-rest'>Short Rest: {room.shortRestPrice}</span>
+         <span className='room-type room'>Room: {room.Price}</span> 
                    </div>
                     </div>
                 ))}

@@ -31,7 +31,7 @@ const BookingForm = () => {
                 <option value="">Select type</option>
                 <option value="room">Room Booking</option>
                 <option value="order">Place Your Order (e.g food, drinks)</option>
-                <option value="order">Spa Booking</option>
+                <option value="order">Massage Booking</option>
             </select>
             <input type='hidden'
             name='_captcha'
